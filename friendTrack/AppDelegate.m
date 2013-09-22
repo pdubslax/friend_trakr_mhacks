@@ -7,12 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import "FriendsViewController.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"JVCY4huGJULCwo1KZsccMPeYEziDFgzvT19rrC4q"
+                  clientKey:@"QhrsimL34a49MJCOE7hfUvFc85qfcpmaKl9pm5iH"];
+    [PFFacebookUtils initializeFacebook];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    
+    
+    
+    
+    
     return YES;
 }
 							
@@ -42,5 +58,11 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+
 
 @end

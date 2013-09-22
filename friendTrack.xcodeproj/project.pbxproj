@@ -17,13 +17,46 @@
 		8BDBE9B117ED683C003B59AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9B017ED683C003B59AB /* Default@2x.png */; };
 		8BDBE9B317ED683C003B59AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9B217ED683C003B59AB /* Default-568h@2x.png */; };
 		8BDBE9B617ED683C003B59AB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9B417ED683C003B59AB /* MainStoryboard_iPhone.storyboard */; };
-		8BDBE9B917ED683C003B59AB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9B717ED683C003B59AB /* MainStoryboard_iPad.storyboard */; };
 		8BDBE9BC17ED683C003B59AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBE9BB17ED683C003B59AB /* ViewController.m */; };
 		8BDBE9C417ED683C003B59AB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9C317ED683C003B59AB /* SenTestingKit.framework */; };
 		8BDBE9C517ED683C003B59AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE99C17ED683C003B59AB /* UIKit.framework */; };
 		8BDBE9C617ED683C003B59AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE99E17ED683C003B59AB /* Foundation.framework */; };
 		8BDBE9CE17ED683C003B59AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9CC17ED683C003B59AB /* InfoPlist.strings */; };
 		8BDBE9D117ED683C003B59AB /* friendTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBE9D017ED683C003B59AB /* friendTrackTests.m */; };
+		8BDBE9DB17ED6BB7003B59AB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9DA17ED6BB7003B59AB /* Parse.framework */; };
+		8BDBE9DD17ED6C7B003B59AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9DC17ED6C7B003B59AB /* AudioToolbox.framework */; };
+		8BDBE9DF17ED6C85003B59AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9DE17ED6C85003B59AB /* CFNetwork.framework */; };
+		8BDBE9E117ED6CA0003B59AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9E017ED6CA0003B59AB /* CoreLocation.framework */; };
+		8BDBE9E317ED6CA9003B59AB /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9E217ED6CA9003B59AB /* libz.1.1.3.dylib */; };
+		8BDBE9E517ED6CB1003B59AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9E417ED6CB1003B59AB /* MobileCoreServices.framework */; };
+		8BDBE9E717ED6CB8003B59AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9E617ED6CB8003B59AB /* QuartzCore.framework */; };
+		8BDBE9E917ED6CEC003B59AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9E817ED6CEC003B59AB /* Security.framework */; };
+		8BDBE9EB17ED6D06003B59AB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9EA17ED6D06003B59AB /* StoreKit.framework */; };
+		8BDBE9ED17ED6D0E003B59AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBE9EC17ED6D0E003B59AB /* SystemConfiguration.framework */; };
+		8BDBE9F017ED7198003B59AB /* ViewControllerLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBE9EF17ED7198003B59AB /* ViewControllerLogin.m */; };
+		8BDBE9F317ED79A2003B59AB /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9F217ED79A2003B59AB /* settings.png */; };
+		8BDBE9F617ED7AAF003B59AB /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9F517ED7AAF003B59AB /* gear.png */; };
+		8BDBE9F817ED7B29003B59AB /* man-figure.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9F717ED7B29003B59AB /* man-figure.png */; };
+		8BDBE9FA17ED7B73003B59AB /* smiley-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9F917ED7B73003B59AB /* smiley-smile.png */; };
+		8BDBE9FC17ED7CB0003B59AB /* drink-toast.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBE9FB17ED7CB0003B59AB /* drink-toast.png */; };
+		8BDBE9FF17ED7D03003B59AB /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBE9FE17ED7D03003B59AB /* FriendsViewController.m */; };
+		8BDBEA0217ED7D15003B59AB /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBEA0117ED7D15003B59AB /* EventsViewController.m */; };
+		8BDBEA0517ED7D34003B59AB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBEA0417ED7D34003B59AB /* SettingsViewController.m */; };
+		8BDBEA0A17ED80AB003B59AB /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBEA0917ED80AB003B59AB /* FriendCell.m */; };
+		8BDBEA1217ED88FF003B59AB /* customTableViewCellTest1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA1017ED88D5003B59AB /* customTableViewCellTest1.xib */; };
+		8BDBEA1917ED8C59003B59AB /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA1417ED8C59003B59AB /* pic2.jpg */; };
+		8BDBEA1A17ED8C59003B59AB /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA1517ED8C59003B59AB /* pic3.jpg */; };
+		8BDBEA1B17ED8C59003B59AB /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA1617ED8C59003B59AB /* pic4.jpg */; };
+		8BDBEA1C17ED8C59003B59AB /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA1717ED8C59003B59AB /* pic5.jpg */; };
+		8BDBEA1E17ED8F54003B59AB /* pic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA1D17ED8F54003B59AB /* pic6.jpg */; };
+		8BDBEA2117ED9BCA003B59AB /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBEA2017ED9BC9003B59AB /* PersonalViewController.m */; };
+		8BDBEA2317EDF92E003B59AB /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA2217EDF92D003B59AB /* write.png */; };
+		8BDBEA2517EDF9F8003B59AB /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA2417EDF9F8003B59AB /* pencil.png */; };
+		8BDBEA2817EE1FFB003B59AB /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA2617EE1FFB003B59AB /* bg.jpg */; };
+		8BDBEA2917EE1FFB003B59AB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA2717EE1FFB003B59AB /* logo.png */; };
+		8BDBEA2B17EE240C003B59AB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDBEA2A17EE240C003B59AB /* FacebookSDK.framework */; };
+		8BDBEA2E17EEBE81003B59AB /* AddFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBEA2D17EEBE81003B59AB /* AddFriends.m */; };
+		8BDBEA3317EF2104003B59AB /* jkndsfkjnds.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBEA3217EF2104003B59AB /* jkndsfkjnds.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8BDBE99917ED683C003B59AB /* friendTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friendTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDBE99917ED683C003B59AB /* Friend Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friend Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDBE99C17ED683C003B59AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8BDBE99E17ED683C003B59AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BDBE9A017ED683C003B59AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,7 +84,6 @@
 		8BDBE9B017ED683C003B59AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BDBE9B217ED683C003B59AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8BDBE9B517ED683C003B59AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		8BDBE9B817ED683C003B59AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		8BDBE9BA17ED683C003B59AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8BDBE9BB17ED683C003B59AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8BDBE9C217ED683C003B59AB /* friendTrackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friendTrackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +92,47 @@
 		8BDBE9CD17ED683C003B59AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BDBE9CF17ED683C003B59AB /* friendTrackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = friendTrackTests.h; sourceTree = "<group>"; };
 		8BDBE9D017ED683C003B59AB /* friendTrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = friendTrackTests.m; sourceTree = "<group>"; };
+		8BDBE9DA17ED6BB7003B59AB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8BDBE9DC17ED6C7B003B59AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8BDBE9DE17ED6C85003B59AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8BDBE9E017ED6CA0003B59AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8BDBE9E217ED6CA9003B59AB /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		8BDBE9E417ED6CB1003B59AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8BDBE9E617ED6CB8003B59AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BDBE9E817ED6CEC003B59AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8BDBE9EA17ED6D06003B59AB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8BDBE9EC17ED6D0E003B59AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8BDBE9EE17ED7198003B59AB /* ViewControllerLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLogin.h; sourceTree = "<group>"; };
+		8BDBE9EF17ED7198003B59AB /* ViewControllerLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLogin.m; sourceTree = "<group>"; };
+		8BDBE9F217ED79A2003B59AB /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../../Pictures/settings.png; sourceTree = "<group>"; };
+		8BDBE9F517ED7AAF003B59AB /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		8BDBE9F717ED7B29003B59AB /* man-figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man-figure.png"; sourceTree = "<group>"; };
+		8BDBE9F917ED7B73003B59AB /* smiley-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smiley-smile.png"; sourceTree = "<group>"; };
+		8BDBE9FB17ED7CB0003B59AB /* drink-toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drink-toast.png"; sourceTree = "<group>"; };
+		8BDBE9FD17ED7D03003B59AB /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		8BDBE9FE17ED7D03003B59AB /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		8BDBEA0017ED7D15003B59AB /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		8BDBEA0117ED7D15003B59AB /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		8BDBEA0317ED7D34003B59AB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8BDBEA0417ED7D34003B59AB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		8BDBEA0817ED80AB003B59AB /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		8BDBEA0917ED80AB003B59AB /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		8BDBEA0F17ED88D5003B59AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/customTableViewCellTest1.xib; sourceTree = "<group>"; };
+		8BDBEA1417ED8C59003B59AB /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		8BDBEA1517ED8C59003B59AB /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		8BDBEA1617ED8C59003B59AB /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		8BDBEA1717ED8C59003B59AB /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		8BDBEA1D17ED8F54003B59AB /* pic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic6.jpg; sourceTree = "<group>"; };
+		8BDBEA1F17ED9BC9003B59AB /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		8BDBEA2017ED9BC9003B59AB /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		8BDBEA2217EDF92D003B59AB /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write.png; sourceTree = "<group>"; };
+		8BDBEA2417EDF9F8003B59AB /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		8BDBEA2617EE1FFB003B59AB /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		8BDBEA2717EE1FFB003B59AB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8BDBEA2A17EE240C003B59AB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		8BDBEA2C17EEBE81003B59AB /* AddFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriends.h; sourceTree = "<group>"; };
+		8BDBEA2D17EEBE81003B59AB /* AddFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriends.m; sourceTree = "<group>"; };
+		8BDBEA3217EF2104003B59AB /* jkndsfkjnds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jkndsfkjnds.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +140,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDBEA2B17EE240C003B59AB /* FacebookSDK.framework in Frameworks */,
+				8BDBE9ED17ED6D0E003B59AB /* SystemConfiguration.framework in Frameworks */,
+				8BDBE9EB17ED6D06003B59AB /* StoreKit.framework in Frameworks */,
+				8BDBE9E917ED6CEC003B59AB /* Security.framework in Frameworks */,
+				8BDBE9E717ED6CB8003B59AB /* QuartzCore.framework in Frameworks */,
+				8BDBE9E517ED6CB1003B59AB /* MobileCoreServices.framework in Frameworks */,
+				8BDBE9E317ED6CA9003B59AB /* libz.1.1.3.dylib in Frameworks */,
+				8BDBE9E117ED6CA0003B59AB /* CoreLocation.framework in Frameworks */,
+				8BDBE9A117ED683C003B59AB /* CoreGraphics.framework in Frameworks */,
+				8BDBE9DF17ED6C85003B59AB /* CFNetwork.framework in Frameworks */,
+				8BDBE9DD17ED6C7B003B59AB /* AudioToolbox.framework in Frameworks */,
 				8BDBE99D17ED683C003B59AB /* UIKit.framework in Frameworks */,
 				8BDBE99F17ED683C003B59AB /* Foundation.framework in Frameworks */,
-				8BDBE9A117ED683C003B59AB /* CoreGraphics.framework in Frameworks */,
+				8BDBE9DB17ED6BB7003B59AB /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +183,7 @@
 		8BDBE99A17ED683C003B59AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BDBE99917ED683C003B59AB /* friendTrack.app */,
+				8BDBE99917ED683C003B59AB /* Friend Tracker.app */,
 				8BDBE9C217ED683C003B59AB /* friendTrackTests.octest */,
 			);
 			name = Products;
@@ -108,6 +192,17 @@
 		8BDBE99B17ED683C003B59AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BDBEA2A17EE240C003B59AB /* FacebookSDK.framework */,
+				8BDBE9EC17ED6D0E003B59AB /* SystemConfiguration.framework */,
+				8BDBE9EA17ED6D06003B59AB /* StoreKit.framework */,
+				8BDBE9E817ED6CEC003B59AB /* Security.framework */,
+				8BDBE9E617ED6CB8003B59AB /* QuartzCore.framework */,
+				8BDBE9E417ED6CB1003B59AB /* MobileCoreServices.framework */,
+				8BDBE9E217ED6CA9003B59AB /* libz.1.1.3.dylib */,
+				8BDBE9E017ED6CA0003B59AB /* CoreLocation.framework */,
+				8BDBE9DE17ED6C85003B59AB /* CFNetwork.framework */,
+				8BDBE9DC17ED6C7B003B59AB /* AudioToolbox.framework */,
+				8BDBE9DA17ED6BB7003B59AB /* Parse.framework */,
 				8BDBE99C17ED683C003B59AB /* UIKit.framework */,
 				8BDBE99E17ED683C003B59AB /* Foundation.framework */,
 				8BDBE9A017ED683C003B59AB /* CoreGraphics.framework */,
@@ -119,13 +214,28 @@
 		8BDBE9A217ED683C003B59AB /* friendTrack */ = {
 			isa = PBXGroup;
 			children = (
+				8BDBE9F417ED79AE003B59AB /* pictures */,
+				8BDBE9B417ED683C003B59AB /* MainStoryboard_iPhone.storyboard */,
 				8BDBE9AB17ED683C003B59AB /* AppDelegate.h */,
 				8BDBE9AC17ED683C003B59AB /* AppDelegate.m */,
-				8BDBE9B417ED683C003B59AB /* MainStoryboard_iPhone.storyboard */,
-				8BDBE9B717ED683C003B59AB /* MainStoryboard_iPad.storyboard */,
 				8BDBE9BA17ED683C003B59AB /* ViewController.h */,
 				8BDBE9BB17ED683C003B59AB /* ViewController.m */,
+				8BDBE9EE17ED7198003B59AB /* ViewControllerLogin.h */,
+				8BDBE9EF17ED7198003B59AB /* ViewControllerLogin.m */,
+				8BDBE9FD17ED7D03003B59AB /* FriendsViewController.h */,
+				8BDBE9FE17ED7D03003B59AB /* FriendsViewController.m */,
+				8BDBEA0017ED7D15003B59AB /* EventsViewController.h */,
+				8BDBEA0117ED7D15003B59AB /* EventsViewController.m */,
+				8BDBEA0317ED7D34003B59AB /* SettingsViewController.h */,
+				8BDBEA0417ED7D34003B59AB /* SettingsViewController.m */,
+				8BDBEA1F17ED9BC9003B59AB /* PersonalViewController.h */,
+				8BDBEA2017ED9BC9003B59AB /* PersonalViewController.m */,
 				8BDBE9A317ED683C003B59AB /* Supporting Files */,
+				8BDBEA0817ED80AB003B59AB /* FriendCell.h */,
+				8BDBEA0917ED80AB003B59AB /* FriendCell.m */,
+				8BDBEA1017ED88D5003B59AB /* customTableViewCellTest1.xib */,
+				8BDBEA2C17EEBE81003B59AB /* AddFriends.h */,
+				8BDBEA2D17EEBE81003B59AB /* AddFriends.m */,
 			);
 			path = friendTrack;
 			sourceTree = "<group>";
@@ -163,6 +273,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8BDBE9F417ED79AE003B59AB /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				8BDBEA3217EF2104003B59AB /* jkndsfkjnds.png */,
+				8BDBEA2617EE1FFB003B59AB /* bg.jpg */,
+				8BDBEA2717EE1FFB003B59AB /* logo.png */,
+				8BDBEA2417EDF9F8003B59AB /* pencil.png */,
+				8BDBEA2217EDF92D003B59AB /* write.png */,
+				8BDBEA1417ED8C59003B59AB /* pic2.jpg */,
+				8BDBEA1517ED8C59003B59AB /* pic3.jpg */,
+				8BDBEA1617ED8C59003B59AB /* pic4.jpg */,
+				8BDBEA1717ED8C59003B59AB /* pic5.jpg */,
+				8BDBEA1D17ED8F54003B59AB /* pic6.jpg */,
+				8BDBE9FB17ED7CB0003B59AB /* drink-toast.png */,
+				8BDBE9F917ED7B73003B59AB /* smiley-smile.png */,
+				8BDBE9F717ED7B29003B59AB /* man-figure.png */,
+				8BDBE9F517ED7AAF003B59AB /* gear.png */,
+				8BDBE9F217ED79A2003B59AB /* settings.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,7 +312,7 @@
 			);
 			name = friendTrack;
 			productName = friendTrack;
-			productReference = 8BDBE99917ED683C003B59AB /* friendTrack.app */;
+			productReference = 8BDBE99917ED683C003B59AB /* Friend Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8BDBE9C117ED683C003B59AB /* friendTrackTests */ = {
@@ -239,7 +371,22 @@
 				8BDBE9B117ED683C003B59AB /* Default@2x.png in Resources */,
 				8BDBE9B317ED683C003B59AB /* Default-568h@2x.png in Resources */,
 				8BDBE9B617ED683C003B59AB /* MainStoryboard_iPhone.storyboard in Resources */,
-				8BDBE9B917ED683C003B59AB /* MainStoryboard_iPad.storyboard in Resources */,
+				8BDBE9F317ED79A2003B59AB /* settings.png in Resources */,
+				8BDBE9F617ED7AAF003B59AB /* gear.png in Resources */,
+				8BDBE9F817ED7B29003B59AB /* man-figure.png in Resources */,
+				8BDBE9FA17ED7B73003B59AB /* smiley-smile.png in Resources */,
+				8BDBE9FC17ED7CB0003B59AB /* drink-toast.png in Resources */,
+				8BDBEA1217ED88FF003B59AB /* customTableViewCellTest1.xib in Resources */,
+				8BDBEA1917ED8C59003B59AB /* pic2.jpg in Resources */,
+				8BDBEA1A17ED8C59003B59AB /* pic3.jpg in Resources */,
+				8BDBEA1B17ED8C59003B59AB /* pic4.jpg in Resources */,
+				8BDBEA1C17ED8C59003B59AB /* pic5.jpg in Resources */,
+				8BDBEA1E17ED8F54003B59AB /* pic6.jpg in Resources */,
+				8BDBEA2317EDF92E003B59AB /* write.png in Resources */,
+				8BDBEA2517EDF9F8003B59AB /* pencil.png in Resources */,
+				8BDBEA2817EE1FFB003B59AB /* bg.jpg in Resources */,
+				8BDBEA2917EE1FFB003B59AB /* logo.png in Resources */,
+				8BDBEA3317EF2104003B59AB /* jkndsfkjnds.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +424,13 @@
 				8BDBE9A917ED683C003B59AB /* main.m in Sources */,
 				8BDBE9AD17ED683C003B59AB /* AppDelegate.m in Sources */,
 				8BDBE9BC17ED683C003B59AB /* ViewController.m in Sources */,
+				8BDBE9F017ED7198003B59AB /* ViewControllerLogin.m in Sources */,
+				8BDBE9FF17ED7D03003B59AB /* FriendsViewController.m in Sources */,
+				8BDBEA0217ED7D15003B59AB /* EventsViewController.m in Sources */,
+				8BDBEA0517ED7D34003B59AB /* SettingsViewController.m in Sources */,
+				8BDBEA0A17ED80AB003B59AB /* FriendCell.m in Sources */,
+				8BDBEA2117ED9BCA003B59AB /* PersonalViewController.m in Sources */,
+				8BDBEA2E17EEBE81003B59AB /* AddFriends.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,20 +469,20 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		8BDBE9B717ED683C003B59AB /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BDBE9B817ED683C003B59AB /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		8BDBE9CC17ED683C003B59AB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8BDBE9CD17ED683C003B59AB /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BDBEA1017ED88D5003B59AB /* customTableViewCellTest1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDBEA0F17ED88D5003B59AB /* en */,
+			);
+			name = customTableViewCellTest1.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,6 +540,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -395,10 +550,15 @@
 		8BDBE9D517ED683C003B59AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "friendTrack/friendTrack-Prefix.pch";
 				INFOPLIST_FILE = "friendTrack/friendTrack-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Friend Tracker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +566,15 @@
 		8BDBE9D617ED683C003B59AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "friendTrack/friendTrack-Prefix.pch";
 				INFOPLIST_FILE = "friendTrack/friendTrack-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Friend Tracker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -467,6 +632,7 @@
 				8BDBE9D617ED683C003B59AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BDBE9D717ED683C003B59AB /* Build configuration list for PBXNativeTarget "friendTrackTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +641,7 @@
 				8BDBE9D917ED683C003B59AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
