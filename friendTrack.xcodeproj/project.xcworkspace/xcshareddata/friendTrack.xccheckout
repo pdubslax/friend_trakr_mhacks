@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF78D0D9-8E23-4280-A080-93C93D71E84A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>friendTrack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D99BB9AC-ADA7-4423-92C1-9D7D881C6325</key>
+		<string>ssh://github.com/pdubslax/friend_trakr_mhacks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>friendTrack.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D99BB9AC-ADA7-4423-92C1-9D7D881C6325</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/pdubslax/friend_trakr_mhacks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D99BB9AC-ADA7-4423-92C1-9D7D881C6325</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D99BB9AC-ADA7-4423-92C1-9D7D881C6325</string>
+			<key>IDESourceControlWCCName</key>
+			<string>friendTrack</string>
+		</dict>
+	</array>
+</dict>
+</plist>
